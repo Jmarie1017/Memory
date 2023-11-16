@@ -16,6 +16,15 @@
 		5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */; };
 		5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */; };
 		5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */; };
+		7FCD38C22B03C44600D54EF9 /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD38C12B03C44600D54EF9 /* Cover.swift */; };
+		7FCD38DE2B05235A00D54EF9 /* Chapter 2 Page 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD38DD2B05235A00D54EF9 /* Chapter 2 Page 1.swift */; };
+		7FCD38E02B052A9800D54EF9 /* Chapter 2 Page 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD38DF2B052A9800D54EF9 /* Chapter 2 Page 2.swift */; };
+		7FCD38E22B052AC300D54EF9 /* Chapter 2 Page 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD38E12B052AC300D54EF9 /* Chapter 2 Page 3.swift */; };
+		7FCD38E42B052B3200D54EF9 /* Chapter 2 Page 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD38E32B052B3200D54EF9 /* Chapter 2 Page 4.swift */; };
+		7FCD38E62B052B4800D54EF9 /* Chapter 2 Page 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD38E52B052B4800D54EF9 /* Chapter 2 Page 5.swift */; };
+		7FCD38E82B052B8500D54EF9 /* Chapter 2 Page 6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD38E72B052B8500D54EF9 /* Chapter 2 Page 6.swift */; };
+		7FCD38EA2B052B9200D54EF9 /* Chapter 2 Page 7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD38E92B052B9200D54EF9 /* Chapter 2 Page 7.swift */; };
+		7FCD38EC2B052BC200D54EF9 /* Chapter 2 Page 8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD38EB2B052BC200D54EF9 /* Chapter 2 Page 8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +38,15 @@
 		5DE6F6812AFAE3EA004ABB4F /* Chapter3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3View.swift; sourceTree = "<group>"; };
 		5DE6F6832AFAE3EF004ABB4F /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
 		5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5View.swift; sourceTree = "<group>"; };
+		7FCD38C12B03C44600D54EF9 /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
+		7FCD38DD2B05235A00D54EF9 /* Chapter 2 Page 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 2 Page 1.swift"; sourceTree = "<group>"; };
+		7FCD38DF2B052A9800D54EF9 /* Chapter 2 Page 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 2 Page 2.swift"; sourceTree = "<group>"; };
+		7FCD38E12B052AC300D54EF9 /* Chapter 2 Page 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 2 Page 3.swift"; sourceTree = "<group>"; };
+		7FCD38E32B052B3200D54EF9 /* Chapter 2 Page 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 2 Page 4.swift"; sourceTree = "<group>"; };
+		7FCD38E52B052B4800D54EF9 /* Chapter 2 Page 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 2 Page 5.swift"; sourceTree = "<group>"; };
+		7FCD38E72B052B8500D54EF9 /* Chapter 2 Page 6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 2 Page 6.swift"; sourceTree = "<group>"; };
+		7FCD38E92B052B9200D54EF9 /* Chapter 2 Page 7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 2 Page 7.swift"; sourceTree = "<group>"; };
+		7FCD38EB2B052BC200D54EF9 /* Chapter 2 Page 8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chapter 2 Page 8.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,7 @@
 			children = (
 				5DE6F66F2AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift */,
 				5DE6F6712AFADF05004ABB4F /* ContentView.swift */,
+				7FCD38C02B03C43C00D54EF9 /* Cover */,
 				5DE6F6872AFAE47A004ABB4F /* Chapter1 */,
 				5DE6F6882AFAE482004ABB4F /* Chapter2 */,
 				5DE6F6892AFAE48E004ABB4F /* Chapter3 */,
@@ -94,6 +113,14 @@
 			isa = PBXGroup;
 			children = (
 				5DE6F67F2AFAE3E6004ABB4F /* Chapter2View.swift */,
+				7FCD38DD2B05235A00D54EF9 /* Chapter 2 Page 1.swift */,
+				7FCD38DF2B052A9800D54EF9 /* Chapter 2 Page 2.swift */,
+				7FCD38E12B052AC300D54EF9 /* Chapter 2 Page 3.swift */,
+				7FCD38E32B052B3200D54EF9 /* Chapter 2 Page 4.swift */,
+				7FCD38E52B052B4800D54EF9 /* Chapter 2 Page 5.swift */,
+				7FCD38E72B052B8500D54EF9 /* Chapter 2 Page 6.swift */,
+				7FCD38E92B052B9200D54EF9 /* Chapter 2 Page 7.swift */,
+				7FCD38EB2B052BC200D54EF9 /* Chapter 2 Page 8.swift */,
 			);
 			name = Chapter2;
 			sourceTree = "<group>";
@@ -120,6 +147,14 @@
 				5DE6F6852AFAE3F3004ABB4F /* Chapter5View.swift */,
 			);
 			path = Chapter5;
+			sourceTree = "<group>";
+		};
+		7FCD38C02B03C43C00D54EF9 /* Cover */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD38C12B03C44600D54EF9 /* Cover.swift */,
+			);
+			path = Cover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,11 +229,20 @@
 			files = (
 				5DE6F6822AFAE3EA004ABB4F /* Chapter3View.swift in Sources */,
 				5DE6F6842AFAE3EF004ABB4F /* Chapter4View.swift in Sources */,
+				7FCD38DE2B05235A00D54EF9 /* Chapter 2 Page 1.swift in Sources */,
+				7FCD38E62B052B4800D54EF9 /* Chapter 2 Page 5.swift in Sources */,
 				5DE6F6722AFADF05004ABB4F /* ContentView.swift in Sources */,
+				7FCD38EA2B052B9200D54EF9 /* Chapter 2 Page 7.swift in Sources */,
 				5DE6F6802AFAE3E6004ABB4F /* Chapter2View.swift in Sources */,
+				7FCD38E22B052AC300D54EF9 /* Chapter 2 Page 3.swift in Sources */,
+				7FCD38E82B052B8500D54EF9 /* Chapter 2 Page 6.swift in Sources */,
+				7FCD38E02B052A9800D54EF9 /* Chapter 2 Page 2.swift in Sources */,
 				5DE6F6862AFAE3F3004ABB4F /* Chapter5View.swift in Sources */,
+				7FCD38C22B03C44600D54EF9 /* Cover.swift in Sources */,
 				5DE6F67E2AFAE3DF004ABB4F /* Chapter1View.swift in Sources */,
 				5DE6F6702AFADF05004ABB4F /* SwiftUIStoryTemplateApp.swift in Sources */,
+				7FCD38E42B052B3200D54EF9 /* Chapter 2 Page 4.swift in Sources */,
+				7FCD38EC2B052BC200D54EF9 /* Chapter 2 Page 8.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
