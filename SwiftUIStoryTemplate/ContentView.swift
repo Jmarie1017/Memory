@@ -2,12 +2,15 @@ import SwiftUI
 
 // Use the relevant folders and swift files to code your chapter of the story. Keep ContentView as-is, unless you want a different type of navigation in your story.
 struct ContentView: View {
+    @State var shouldPresentSheet = true
+    
     var body: some View {
         TabView {
             Chapter1View()
                 .tabItem {
                     Label("Chapter 1", systemImage: "1.circle")
                 }
+              
             Chapter2View()
                 .tabItem {
                     Label("Chapter 2", systemImage: "2.circle")
@@ -25,6 +28,9 @@ struct ContentView: View {
                     Label("Chapter 5", systemImage: "5.circle")
                 }
         }
+        .sheet(isPresented: $shouldPresentSheet, content: {
+            Cover()
+        })
     }
 }
 
