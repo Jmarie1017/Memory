@@ -25,13 +25,13 @@ struct Chapter2View: View {
             Chapter_2_Page_1()
                 .tabItem { Label("page1", systemImage: "star") }
             
-            Text("The father states to his wife that there is something suspicious going on at work in \(doctorName)'s office.  He is doing something to his patiences.")
+            Chapter_2_Page_2()
                 .tabItem { Label("page2", systemImage: "star")}
             
-            Text("Once his patiences sees him, they leave his office\(patientsConditions[0]).")
+            Chapter_2_Page_3()
                 .tabItem { Label("page3", systemImage: "star")}
             
-            Text("As the father is telling the story to his wife, there is a knock at the door.  Emiliano looks through the peephole and notices \(doctorName) standing there. Emiliano opens the door")
+            Chapter_2_Page_4()
                 .tabItem { Label("page4", systemImage: "star")}
             
             Text("Emiliano panics and begins to hide his two children, \(age2) & \(age1), in the \(locationNameTwo) closet, where their coats hung.")

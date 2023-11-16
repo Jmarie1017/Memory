@@ -15,7 +15,7 @@ struct Chapter_2_Page_5: View {
     var age1: Int = 12
     var age2: Int = 15
     var body: some View {
-        Image("man")
+        Image("keyhole")
             .resizable()
             .scaledToFit()
             .frame(width: 450, height: 350)
