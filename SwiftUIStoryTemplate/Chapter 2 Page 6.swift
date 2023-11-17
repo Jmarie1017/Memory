@@ -14,17 +14,19 @@ struct Chapter_2_Page_6: View {
     let doctorName: String = "Dr. Mendoza"
     let parentName = "Emiliano and Josie"
     var body: some View {
-        Image("man")
-            .resizable()
-            .scaledToFit()
-            .frame(width: 450, height: 350)
-            .padding(.bottom, 30.0)
-        
+       VStack {
+            Image("HandHoldingSyringe")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 450, height: 350)
+                .padding(.bottom, 30.0)
+            
 
-        Text("Then, he lets \(doctorName) in.  The doctor shows up with his emergency bag and pulls a syringe from it and sticks \(parentName) in their necks, numbing them.")
-            .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
-            .padding(.bottom, 11.0)
-            .padding()
+            Text("Then, he lets \(doctorName) in.  The doctor shows up with his emergency bag and pulls a syringe from it and sticks \(parentName) in their necks, numbing them.")
+                .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
+                .padding(.bottom, 11.0)
+                .padding()
+        }
             
     }
 }
