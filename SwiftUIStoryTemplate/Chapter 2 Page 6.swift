@@ -15,7 +15,7 @@ struct Chapter_2_Page_6: View {
     let parentName = "Emiliano and Josie"
     var body: some View {
        VStack {
-            Image("man")
+            Image("HandHoldingSyringe")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 450, height: 350)

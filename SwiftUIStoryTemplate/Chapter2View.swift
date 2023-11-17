@@ -34,7 +34,7 @@ struct Chapter2View: View {
             Chapter_2_Page_4()
                 .tabItem { Label("page4", systemImage: "star")}
             
-            Text("Emiliano panics and begins to hide his two children, \(age2) & \(age1), in the \(locationNameTwo) closet, where their coats hung.")
+            Chapter_2_Page_5()
                 .tabItem { Label("page5", systemImage: "star")}
             
             Text("Then, he lets \(doctorName) in.  The doctor shows up with his emergency bag and pulls a syringe from it and sticks \(parentName) in their necks, numbing them.")

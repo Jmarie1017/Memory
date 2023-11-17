@@ -14,7 +14,7 @@ struct Chapter_2_Page_7: View {
     let doctorName: String = "Dr. Mendoza"
     var body: some View {
        VStack {
-            Image("man")
+            Image("keyhole")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 450, height: 350)
