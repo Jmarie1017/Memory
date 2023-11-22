@@ -18,7 +18,7 @@ struct Chapter_2_Page_5: View {
         Image("ChildHindingBehindDoor")
             .resizable()
             .scaledToFit()
-            .frame(width: 450, height: 350)
+            .frame(width: 500, height: 200)
             .padding(.bottom, 30.0)
         
 

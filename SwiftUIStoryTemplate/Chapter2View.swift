@@ -37,14 +37,14 @@ struct Chapter2View: View {
             Chapter_2_Page_5()
                 .tabItem { Label("page5", systemImage: "star")}
             
-            Text("Then, he lets \(doctorName) in.  The doctor shows up with his emergency bag and pulls a syringe from it and sticks \(parentName) in their necks, numbing them.")
+            Chapter_2_Page_6()
                 .tabItem { Label("page6", systemImage: "star")}
             
             
-            Text("They both pass out with their daugther witnessing the whole thing through the closet keyhole.")
+            Chapter_2_Page_7()
                 .tabItem { Label("page7", systemImage: "star")}
             
-            Text("The doctor leaves the house and Neriah age \(age2), along with her \(age1) year old brother ZayZay, comes rushing out of the closet.")
+            Chapter_2_Page_8()
                 .tabItem { Label("page8", systemImage: "star")}
             
             
